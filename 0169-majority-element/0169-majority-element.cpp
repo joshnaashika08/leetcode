@@ -8,9 +8,10 @@ public:
        }
        int max=INT_MIN;
        for(auto i:m){
-        if(i.second>max)
+        if(i.second>max){
         max=i.second;
-         place=i.first;
+        place=i.first;
+        }
        }
        return place;
     }
