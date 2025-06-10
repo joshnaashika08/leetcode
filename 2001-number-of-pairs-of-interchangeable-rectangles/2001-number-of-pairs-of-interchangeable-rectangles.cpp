@@ -6,7 +6,7 @@ public:
         int n=r.size();
         for(int i=0;i<n;i++){
             double ratio=(double)r[i][0]/r[i][1];
-            m[ratio]=m[ratio]+1;
+            m[ratio]++;
         }
         for(auto i:m){
             long long temp=i.second;
